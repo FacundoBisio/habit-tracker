@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Input, Typography } from "@material-tailwind/react"; // Importa de Material Tailwind
+import { Button, Input } from "@material-tailwind/react"; // Importa de Material Tailwind
 
 // Agrega onFormSubmit como prop
 function HabitForm({ setHabits, onFormSubmit }) {

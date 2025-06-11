@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { FaBrain, FaRegSmileBeam } from 'react-icons/fa';
-import { Button, Input, Typography } from "@material-tailwind/react"; // Importa de Material Tailwind
+import { Button, Input } from "@material-tailwind/react"; // Importa de Material Tailwind
 
 // Agrega onLogSubmit como prop
 function MicromomentLogger({ onLogSubmit }) {

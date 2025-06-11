@@ -1,20 +1,19 @@
 // src/index.tsx
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import "./index.css";
 import { ThemeProvider } from "@material-tailwind/react";
 
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement // Esto es sintaxis de TypeScript
-);
-root.render(
-  <React.StrictMode>
-    <ThemeProvider>
-      <App />
-    </ThemeProvider>
-  </React.StrictMode>,
-);
+const container = document.getElementById("root");
 
-reportWebVitals();
+if (container) {
+  const root = ReactDOM.createRoot(container);
+  root.render(
+    <React.StrictMode>
+      <ThemeProvider>
+        <App />
+      </ThemeProvider>
+    </React.StrictMode>
+  );
+}

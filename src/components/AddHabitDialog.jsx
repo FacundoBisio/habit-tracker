@@ -1,11 +1,10 @@
+// file: addHabitDialog.jsx
 import React from 'react';
 import {
   Dialog,
   Card,
   CardBody,
-  CardFooter,
   Typography,
-  Button,
 } from "@material-tailwind/react";
 import HabitForm from './HabitForm'; // Asegúrate de que la ruta sea correcta
 

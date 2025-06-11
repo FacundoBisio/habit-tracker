@@ -3,9 +3,7 @@ import {
   Dialog,
   Card,
   CardBody,
-  CardFooter,
   Typography,
-  Button,
 } from "@material-tailwind/react";
 import MicromomentLogger from './MicromomentLogger'; // Asegúrate de que la ruta sea correcta
 
